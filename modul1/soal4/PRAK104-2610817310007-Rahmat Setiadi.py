@@ -1,20 +1,23 @@
-shoe_A = 400000
-shoe_B = 350000
+# Buatlah  program  yang  dapat  menghasilkan  output  berupa  hasil  diskon  dari  sebuah  harga
+# dengan mengimplementasikan operator.
 
+# Output
+# Harga sepatu A adalah 400000
+# Harga sepatu B adalah 350000
+# Sepatu A mendapat diskon 13% sehingga harganya menjadi 348000
+# Sepatu A mendapat diskon 21% sehingga harganya menjadi 276500
 
-def calculate_discounted_price(shoe_price, discount_percentage):
-    discount_amount = shoe_price * (discount_percentage / 100)
-    discounted_price = int(shoe_price - discount_amount)
-    return discounted_price
+shoe_a_price = 400000
+shoe_b_price = 350000
 
+shoe_a_discounted = shoe_a_price - (shoe_a_price * 0.13)
+shoe_b_discounted = shoe_b_price - (shoe_b_price * 0.21)
 
-print("Harga Sepatu A: Rp", shoe_A)
-print("Harga Sepatu B: Rp", shoe_B)
+print(f"Harga sepatu A adalah {shoe_a_price}")
+print(f"Harga sepatu B adalah {shoe_b_price}")
 print(
-    "Sepatu A mendapat diskon 13% sehingga harga menjadi Rp",
-    calculate_discounted_price(shoe_A, 13),
+    f"Sepatu A mendapat diskon 13% sehingga harganya menjadi {int(shoe_a_discounted)}"
 )
 print(
-    "Sepatu B mendapat diskon 21% sehingga harga menjadi Rp",
-    calculate_discounted_price(shoe_B, 21),
+    f"Sepatu B mendapat diskon 21% sehingga harganya menjadi {int(shoe_b_discounted)}"
 )

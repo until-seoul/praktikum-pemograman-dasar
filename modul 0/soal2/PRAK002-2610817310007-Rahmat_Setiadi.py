@@ -1,5 +1,5 @@
-nama = "Rahmat Setiadi"
+name = "Rahmat Setiadi"
 
-print(f"Selamat Pagi, {nama}")
-print(f"Selamat Siang, {nama}")
-print(f"Selamat Malam, {nama}")
+print(f"Selamat Pagi, {name}")
+print(f"Selamat Siang, {name}")
+print(f"Selamat Malam, {name}")

@@ -1,3 +1,3 @@
-andi_says = '"Saya Pasti Bisa"'
+andi_says = "Saya Pasti Bisa"
 
-print (f"Andi Berkata {andi_says}")
+print(f'Andi Berkata "{andi_says}"')
